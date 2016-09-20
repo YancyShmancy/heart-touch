@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #000;
+    }
+
+h1 {
+    position: relative;
+    z-index: 1000;
+    padding: .5em;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.7em;
+    color: #555;
+}
+
+svg {
+    position: absolute;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0.5%;
+    width: 100%;
+}
